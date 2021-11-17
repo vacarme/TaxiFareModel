@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bxnxne/code/vacarme/TaxiFareModel/mlruns/1/4945dc171de146be9a3ed527dfc75efb/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 4945dc171de146be9a3ed527dfc75efb
+run_uuid: 4945dc171de146be9a3ed527dfc75efb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1637070269275
+status: 1
+tags: []
+user_id: unknown

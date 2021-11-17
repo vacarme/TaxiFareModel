@@ -41,6 +41,22 @@ count_lines:
         '{printf "%4s %s\n", $$1, $$2}{s+=$$0}END{print s}'
 	@echo ''
 
+run:
+	@python -W ignore -m TaxiFareModel.trainer
+
+# ----------------------------------
+#         	GCP SET UP
+# ----------------------------------
+
+set_project:
+	@gcloud config set project ${wagon-722-332409}
+
+create_bucket:
+	@gsutil mb -l ${europe-west1} -p ${wagon-722-332409} gs://${uhcakip999}
+
+
+
+
 # ----------------------------------
 #      UPLOAD PACKAGE TO PYPI
 # ----------------------------------
